@@ -10,8 +10,8 @@ cTel && Array.from(cTel).forEach((tel) => {
 fetch(`/rest.php`, {
  method: 'get',
 })
-.then(response => response.json())
-.then((json__response) => {
- console.log('json__response', json__response)
+.then(response => response.text())
+.then((response) => {
+ console.log('response', response)
 })
 .catch((error) => console.log('error', error))
