@@ -7,7 +7,7 @@ cTel && Array.from(cTel).forEach((tel) => {
 })
 
 
-fetch(`//dlbxqp.myjino.ru/hh/api`, {
+fetch(`//dlbxqp.myjino.ru/hh/api/index.php`, {
  method: 'get',
 })
 .then(response => response.text())
